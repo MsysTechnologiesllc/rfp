@@ -59,9 +59,9 @@ child.stdin.end(); //end input
 var rdp = require('node-rdp');
  
 rdp({
-  address: '192.168.102.64',
-  username: 'msys',
-  password: 'master#123',
+  address: '<IP Address Here>',
+  username: '<username>',
+  password: '<password>',
   safeMode: true
 }).then(function() {
   console.log('At this, point, the connection has terminated.');
