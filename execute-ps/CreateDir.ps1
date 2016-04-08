@@ -1,1 +1,1 @@
-New-Item -ItemType directory -Path E:\Test\newDir00
+New-Item -ItemType directory -Path E:\Test\newDir0
